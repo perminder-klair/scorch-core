@@ -1,0 +1,18 @@
+{
+	"name": "scorchsoft/scorch-core",
+	"description": "Scorch CMS Core Files",
+	"type": "library",
+	"keywords": ["scorch cms"," scorch core"," scorchsoft"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Parminder Klair",
+			"email": "p.klair@scorchsoft.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"scorchsoft\\scorchcore\\": ""
+		}
+	}
+}
