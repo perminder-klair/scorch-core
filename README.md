@@ -22,10 +22,7 @@ or add
 to the require section of your `composer.json` file.
 
 
-Usage
+License
 -----
 
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \scorchsoft\scorchcore\AutoloadExample::widget(); ?>```
+**scorch-core** is released under the MIT License. See the bundled `LICENSE` for details.
