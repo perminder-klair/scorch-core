@@ -68,7 +68,7 @@ $tag = new Tag;
 echo "              <?= " . $generator->generateActiveField($attribute) . " ?>\n\n";
 } ?>
                         <div class="form-group">
-                            <?= "<?= " ?>Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+                            <?= "<?= " ?>Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success col-sm-offset-2' : 'btn btn-primary col-sm-offset-2']) ?>
                         </div>
 
                     <?= "<?php " ?>ActiveForm::end(); ?>
