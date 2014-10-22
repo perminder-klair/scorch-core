@@ -18,11 +18,16 @@ class ScorchAsset extends \yii\web\AssetBundle
         'css/sb-admin-2.css',
         'font-awesome-4.1.0/css/font-awesome.min.css',
     ];
+
     public $js = [
         'js/bootstrap.min.js',
         'js/plugins/metisMenu/metisMenu.js',
         'js/plugins/html5sortable/html.sortable.min.0.1.3.js',
         'js/sb-admin-2.js',
+    ];
+
+    public $depends = [
+        'kato\BowerAsset',
     ];
 
 }
