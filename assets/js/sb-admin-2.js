@@ -91,6 +91,8 @@ $(function() {
         pageListSelector.on('click', function () {
             updateExpandIcon($(this));
         })
+
+        $.material.init();
     });
 });
 //Pages Admin Area

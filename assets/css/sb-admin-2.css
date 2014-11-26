@@ -88,6 +88,26 @@ body {
     left: auto;
 }
 
+.navbar, .navbar-default, .navbar-primary {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.nav-tabs>li>a {
+    color: inherit;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.open>.nav-tabs>li:hover, .nav-tabs>li.open>a {
+    color: #555 !important;
+}
+
+.nav-tabs {
+    background: transparent;
+}
+
 .sidebar .sidebar-nav.navbar-collapse {
     padding-right: 0;
     padding-left: 0;

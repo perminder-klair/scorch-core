@@ -1,0 +1,12 @@
+{
+  "name": "scorch-core",
+  "version": "0.0.0",
+  "homepage": "https://github.com/perminder-klair/scorch-core",
+  "authors": [
+    "Parminde Klair <p.klair@scorchsoft.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-material-design": "~0.1.6"
+  }
+}
