@@ -15,7 +15,7 @@ class ScorchAsset extends \yii\web\AssetBundle
 
     public $css = [
         'css/plugins/metisMenu/metisMenu.css',
-        'font-awesome-4.1.0/css/font-awesome.min.css',
+        'bower_components/fontawesome/css/font-awesome.min.css',
         'bower_components/bootstrap-material-design/dist/css/ripples.min.css',
         'bower_components/bootstrap-material-design/dist/css/material.min.css',
         'css/sb-admin-2.css',
