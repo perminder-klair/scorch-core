@@ -92,7 +92,7 @@ $(function() {
             updateExpandIcon($(this));
         })
 
-        $.material.init();
+        //$.material.init();
     });
 });
 //Pages Admin Area
