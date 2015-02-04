@@ -18,6 +18,9 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
+.breadcrumb {
+    margin-bottom: 0;
+}
 
 .btn-primary {
     color: #fff;
@@ -25,10 +28,27 @@ a:hover, a:focus {
     border-color: #ff503f;
 }
 
+.page-header {
+    margin: 25px 0 25px;
+}
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     background-color: #F80E0D;
     opacity: 0.8;
     border-color: #ff503f;
+}
+
+.search-btn {
+    background-color: transparent;
+    border-color: transparent;
+    color: #F80E0D;
+    width: 100%;
+    text-align: right
+}
+.search-btn:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: #F80E0D;
 }
 
 
@@ -50,6 +70,7 @@ a:hover, a:focus {
         margin: 0 0 0 250px;
         padding: 0 30px;
         border-left: none;
+        padding-bottom: 150px;
     }
     .form-horizontal .control-label {
         width: 15%;
