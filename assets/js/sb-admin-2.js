@@ -1,5 +1,6 @@
 $(function() {
     $('#side-menu').metisMenu();
+    $('.dropdown-toggle').dropdown();
 });
 
 //Loads the correct sidebar on window load,
