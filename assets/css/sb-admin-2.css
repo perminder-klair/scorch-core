@@ -5,17 +5,37 @@
  */
 
 body {
-    background-color: #f8f8f8;
+    background-color: #ECF0F1;
+    height: 100%;
 }
+
+a {
+    color: #8e9aa4;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F80E0D;
+    border-color: #ff503f;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #F80E0D;
+    opacity: 0.8;
+    border-color: #ff503f;
+}
+
 
 #wrapper {
     width: 100%;
+    background-color: #252b33;
+    height: 100%;
 }
 
 #page-wrapper {
     padding: 0 15px;
     min-height: 568px;
-    background-color: #fff;
+    background-color: #ECF0F1;
 }
 
 @media(min-width:768px) {
@@ -23,7 +43,7 @@ body {
         position: inherit;
         margin: 0 0 0 250px;
         padding: 0 30px;
-        border-left: 1px solid #e7e7e7;
+        border-left: 1px solid #252b33;
     }
     .form-horizontal .control-label {
         width: 15%;
@@ -89,11 +109,12 @@ body {
 }
 
 .navbar, .navbar-default, .navbar-primary {
-    background-color: transparent;
+    background-color: #20252B;
 }
 
 .navbar-default .navbar-brand {
-    color: #777;
+    color: #ff503f;
+    font-size: 28px;
 }
 
 .nav-tabs>li>a {
@@ -108,6 +129,20 @@ body {
     background: transparent;
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #252b33;
+    color: #ff503f;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #252b33;
+    color: #ff503f;
+}
+
+.navbar-default {
+    border-color: #191d22;
+}
+
 .sidebar .sidebar-nav.navbar-collapse {
     padding-right: 0;
     padding-left: 0;
@@ -118,7 +153,7 @@ body {
 }
 
 .sidebar ul li {
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 1px solid #191d22;
 }
 
 .sidebar ul li a.active {
@@ -466,4 +501,13 @@ table.dataTable thead .sorting:after {
 
 .tooltip-inner {
     min-width: 250px !important;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #F80E0D;
+    border-color: #ff503f;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #F80E0D;
 }
