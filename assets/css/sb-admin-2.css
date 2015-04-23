@@ -545,3 +545,8 @@ table.dataTable thead .sorting:after {
 .pagination > li > a, .pagination > li > span {
     color: #F80E0D;
 }
+
+#login-form {
+    width: 90%;
+    margin: 0 auto;
+}
