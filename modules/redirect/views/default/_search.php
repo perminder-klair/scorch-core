@@ -16,25 +16,9 @@ use yii\bootstrap\ActiveForm;
         'method' => 'get',
     ]); ?>
 
-    <?= $form->field($model, 'id') ?>
-
-    <?= $form->field($model, 'content_id') ?>
-
-    <?= $form->field($model, 'content_type') ?>
-
     <?= $form->field($model, 'old_url') ?>
 
     <?= $form->field($model, 'new_url') ?>
-
-    <?php // echo $form->field($model, 'tags') ?>
-
-    <?php // echo $form->field($model, 'create_time') ?>
-
-    <?php // echo $form->field($model, 'update_time') ?>
-
-    <?php // echo $form->field($model, 'active') ?>
-
-    <?php // echo $form->field($model, 'deleted') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
