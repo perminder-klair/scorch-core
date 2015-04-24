@@ -44,7 +44,7 @@ Breadcrumbs::widget([
 
 <div class="collapse-group">
     <div class="text-center remove-margin">
-        <a data-toggle="collapse" data-target=".search-container" class="btn btn-xs btn-primary"><i class="fa fa-angle-down"></i> Search <?= Html::encode($this->title) ?></a>
+        <a data-toggle="collapse" data-target=".search-container" class="btn btn-xs btn-primary search-btn"><i class="fa fa-angle-down"></i> Search <?= Html::encode($this->title) ?></a>
     </div>
     <div class="block search-container collapse">
         <div class="block-title">
