@@ -1,0 +1,52 @@
+.dz-preview {
+    display: none !important;
+}
+.media-container {
+    margin-top: 20px;
+}
+.media-container .delete-btn {
+    position: absolute;
+    right: 0;
+    top: -15px;
+}
+.media-container .lock-btn {
+    position: absolute;
+    left: 0;
+    top: -15px;
+}
+.media-container h4 {
+    text-align: center;
+}
+.media-container .select2-container .select2-choice {
+    line-height: 15px;
+}
+.media-container .status {
+    text-align: right;
+}
+
+.media-select-body {
+
+    height: 300px;
+    overflow: scroll;
+
+}
+.single-media-row {
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+
+.single-media-row:hover{
+
+    background-color: #ffffff;
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+
+}
+
+.single-media-row .media-title {
+
+margin-top: 30px;
+}
