@@ -25,9 +25,7 @@ use kato\DropZone;
         ],
         'clientEvents' => [
             'success' => "function(file, responseText){
-                $.get( '" . \Yii::$app->urlManagerFrontend->createUrl(['media/default/render-row']) . "?id=' + responseText.id, function(data) {
-                    $('.media-container').prepend(data);
-                });
+                location.reload();
             }",
         ]
     ]); ?>

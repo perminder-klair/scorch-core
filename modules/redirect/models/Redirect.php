@@ -28,7 +28,7 @@ class Redirect extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'redirects';
+        return 'redirect';
     }
 
     /**
