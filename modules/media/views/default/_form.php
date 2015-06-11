@@ -55,7 +55,7 @@ $this->registerJs("$('.delete-item').on('click', function () { $('#deleteModal')
                             'language' => 'en',
                             'options' => [
                                 'multiple' => true,
-                                'placeholder' => 'Select a state ...'
+                                'placeholder' => 'Tags ...'
                             ],
                             'pluginOptions' => [
                                 'allowClear' => true,
