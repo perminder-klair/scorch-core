@@ -127,6 +127,7 @@ class Redirect extends \yii\db\ActiveRecord
 
             if(!is_null($page->new_url) && strlen($page->new_url) != 0) {
                 //new url is specified, redirect to it
+                header("HTTP/1.1 301 Moved Permanently");
                 header("Location: /" . $page->new_url);
                 exit;
             }
