@@ -43,7 +43,6 @@ use kato\DropZone;
         <?php foreach ($model->media as $media): ?>
             <?= $this->render('@media/views/default/mediaRow.php', [
                 'media' => $media,
-                'form' => $form,
                 'model' => $model,
             ]); ?>
         <?php endforeach; ?>
