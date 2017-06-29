@@ -20,11 +20,8 @@ class Media extends Widget
 
     public function run()
     {
-        $form = new ActiveForm();
-
         return $this->render('media', [
             'model' => $this->model,
-            'form' => $form,
         ]);
     }
 
