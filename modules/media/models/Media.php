@@ -105,7 +105,9 @@ class Media extends MediaModel
 
     public function afterFind()
     {
-        $this->newAllowedGroups = Json::decode($this->allowed_groups);
+        if(!empty($this->allowed_groups)) {
+            $this->newAllowedGroups = Json::decode($this->allowed_groups);
+        }
 
         parent::afterFind();
     }
